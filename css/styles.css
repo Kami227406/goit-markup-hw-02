@@ -1,6 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -12,13 +14,14 @@ body {
 .header-navigation {}
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
 .header-logo:is(:hover, :focus) {
@@ -26,7 +29,7 @@ body {
 }
 
 .header-logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-menu {}
@@ -46,6 +49,9 @@ body {
 }
 
 /**!ADDRESS*/
+.address {
+    font-style: normal
+}
 
 .header-soc {}
 
@@ -64,7 +70,9 @@ body {
 
 /**!HERO*/
 
-.hero {}
+.hero {
+    background-color: #2e2f42;
+}
 
 .hero-title {
     font-weight: 700;
@@ -76,17 +84,20 @@ body {
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
+    background-color: #4D5AE5;
 }
 
 .hero-btn:is(:hover, :focus) {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /**!BENEFITS*/
@@ -130,7 +141,9 @@ body {
 
 /**!TEAM*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-weight: 700;
