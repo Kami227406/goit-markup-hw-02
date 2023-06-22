@@ -213,7 +213,7 @@ body {
     color: #1d2050;
 }
 
-.footer-title span {
+.footer-title {
     color: var(--logo-color);
 }
 
