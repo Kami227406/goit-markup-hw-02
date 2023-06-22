@@ -23,8 +23,6 @@ body {
 
 /**!HEADER*/
 
-.header-navigation {}
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -43,10 +41,6 @@ body {
 .header-logo span {
     color: var(--title-color);
 }
-
-.header-menu {}
-
-.header-menu-item {}
 
 .header-menu-link {
     font-weight: 500;
@@ -69,7 +63,6 @@ body {
     list-style: none;
 }
 
-.header-soc-item {}
 
 .header-soc-link {
     font-size: 16px;
@@ -89,7 +82,6 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -102,8 +94,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--hero-color);
@@ -115,10 +105,6 @@ body {
 }
 
 /**!BENEFITS*/
-
-.benefits-list {}
-
-.benefits-item {}
 
 .benefits-subtitle {
     font-weight: 500;
@@ -137,14 +123,10 @@ body {
 
 /**!PRODUCTS*/
 
-.products {}
-
 .products-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
 }
@@ -160,7 +142,6 @@ body {
 }
 
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -168,9 +149,6 @@ body {
     text-transform: capitalize;
     color: var(--title-color);
 }
-
-.team-list {}
-
 
 .team-item {
     background-color: var(--hero-color);
@@ -181,7 +159,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .team-item-text {
@@ -223,7 +201,6 @@ body {
 
 
 .footer-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
