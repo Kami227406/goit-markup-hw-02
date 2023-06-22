@@ -169,11 +169,12 @@ body {
     color: var(--title-color);
 }
 
-.team-list {
+.team-list {}
+
+
+.team-item {
     background-color: var(--hero-color);
 }
-
-.team-item {}
 
 .team-subtitle {
     font-weight: 500;
